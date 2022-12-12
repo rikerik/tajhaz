@@ -1,3 +1,21 @@
+header{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0,5);
+
+}
+#bannerimage {
+    width: 100%;
+    background-image: url(exp/header.jpg);
+    height: 405px;
+    background-color: purple;
+    background-position: center;
+  }
+
 h1{
     background-color: aqua;
     font-size: large;

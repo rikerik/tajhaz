@@ -10,8 +10,10 @@
 </head>
 
 <body>
-    <?php echo "Hello World" ?>
-    <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veritatis dignissimos veniam, est cum eius nobis error sapiente, obcaecati quas ea cumque repellendus in fugit dicta quos, voluptatum et dolorem. </h1>
+    <header>
+    <div id="bannerimage"></div>
+    </header>
+    <header< <?php echo "Hello Wdsdorld" ?> <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veritatis dignissimos veniam, est cum eius nobis error sapiente, obcaecati quas ea cumque repellendus in fugit dicta quos, voluptatum et dolorem. </h1>
 </body>
 
 </html>
