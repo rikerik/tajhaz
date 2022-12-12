@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
     <link rel="stylesheet" href="exp/style.css">
     <title>Eperfa tájház</title>
 </head>
+
 <body>
-<?php echo "Hello World" ?>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veritatis dignissimos veniam, est cum eius nobis error sapiente, obcaecati quas ea cumque repellendus in fugit dicta quos, voluptatum et dolorem.
+    <?php echo "Hello World" ?>
+    <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veritatis dignissimos veniam, est cum eius nobis error sapiente, obcaecati quas ea cumque repellendus in fugit dicta quos, voluptatum et dolorem. </h1>
 </body>
+
 </html>
