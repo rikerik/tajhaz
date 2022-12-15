@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <header>
-    <div id="bannerimage"></div>
+    <header class="banner">
+        <h1>Üdvözöllek az Eperfa tájház kapujában!</h1>
     </header>
-    <header< <?php echo "Hello Wdsdorld" ?> <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veritatis dignissimos veniam, est cum eius nobis error sapiente, obcaecati quas ea cumque repellendus in fugit dicta quos, voluptatum et dolorem. </h1>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi facere, laborum delectus consequuntur veritatis explicabo odit magni vel nostrum harum totam perferendis dignissimos? Mollitia, voluptatibus.</h3>
 </body>
 
 </html>
