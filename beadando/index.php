@@ -13,8 +13,12 @@
     <header class="banner">
         <h1>Üdvözöllek az Eperfa tájház kapujában!</h1>
     </header>
-    <div>Lorem ipsum dolor sit amet.</div>
-    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi facere, laborum delectus consequuntur veritatis explicabo odit magni vel nostrum harum totam perferendis dignissimos? Mollitia, voluptatibus.</h3>
+    <div class="topnav">
+        <a class="active" href="index.php">Főoldal</a>
+        <a href="galeria.php">Galéria</a>
+        <a href="kapcsolat.php">Kapcsolat</a>
+        <a href="informaciok.php">Információk</a>
+    </div>
 </body>
 
 </html>
