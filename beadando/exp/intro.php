@@ -23,10 +23,26 @@ echo '
 <?php
 echo '
     <div class="topnav">
-        <a class="'?> <?php if($currentPage == "index.php") {echo "active"; } else  {echo "noactive";} ?> <?php echo' " href="index.php">Főoldal</a>
-        <a class="'?> <?php if($currentPage == "galeria.php") {echo "active"; } else  {echo "noactive";} ?> <?php echo' "a href="galeria.php">Galéria</a>
-        <a class="'?> <?php if($currentPage == "kapcsolat.php") {echo "active"; } else  {echo "noactive";} ?> <?php echo' "a href="kapcsolat.php">Kapcsolat</a>
-        <a class="'?> <?php if($currentPage == "informaciok.php") {echo "active"; } else  {echo "noactive";} ?> <?php echo' "a href="informaciok.php">Információk</a>
+        <a class="' ?> <?php if ($currentPage == "index.php") {
+                            echo "active";
+                        } else {
+                            echo "noactive";
+                        } ?> <?php echo ' " href="index.php">Főoldal</a>
+        <a class="' ?> <?php if ($currentPage == "galeria.php") {
+                            echo "active";
+                        } else {
+                            echo "noactive";
+                        } ?> <?php echo ' "a href="galeria.php">Galéria</a>
+        <a class="' ?> <?php if ($currentPage == "kapcsolat.php") {
+                            echo "active";
+                        } else {
+                            echo "noactive";
+                        } ?> <?php echo ' "a href="kapcsolat.php">Kapcsolat</a>
+        <a class="' ?> <?php if ($currentPage == "informaciok.php") {
+                            echo "active";
+                        } else {
+                            echo "noactive";
+                        } ?> <?php echo ' "a href="informaciok.php">Információk</a>
     </div>
 </body>'
-?>
+                                                                                                                ?>

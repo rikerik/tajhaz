@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php include "exp/intro.php"; ?>
 <body>
-    <?php include "exp/intro.php"; ?>
+    
     <div class="galleryText">
         <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, minima.</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quia, velit odit aliquid veniam architecto, dolore quibusdam accusantium soluta asperiores beatae? Deleniti assumenda magnam debitis!</p>
     </div>
-
 
     <ul class="gallery">
         <li>
@@ -55,7 +54,39 @@
                 <img src="gallery/9.jpg" alt="tájház 9">
             </a>
         </li>
+        <li>
+            <a href="gallery/10.jpg" target="_blank" title="Megtekintés">
+                <img src="gallery/10.jpg" alt="tájház 10">
+            </a>
+        </li>
+        <li>
+            <a href="gallery/11.jpg" target="_blank" title="Megtekintés">
+                <img src="gallery/11.jpg" alt="tájház 11">
+            </a>
+        </li>
+        <li>
+            <a href="gallery/12.jpg" target="_blank" title="Megtekintés">
+                <img src="gallery/12.jpg" alt="tájház 12">
+            </a>
+        </li>
+        <li>
+            <a href="gallery/13.jpg" target="_blank" title="Megtekintés">
+                <img src="gallery/13.jpg" alt="tájház 13">
+            </a>
+        </li>
+        <li>
+            <a href="gallery/14.jpg" target="_blank" title="Megtekintés">
+                <img src="gallery/14.jpg" alt="tájház 14">
+            </a>
+        </li>
+        <li>
+            <a href="gallery/15.jpg" target="_blank" title="Megtekintés">
+                <img src="gallery/15.jpg" alt="tájház 15">
+            </a>
+        </li>
     </ul>
-</body>
+    
 
+</body>
+<?php include "exp/end.php"; ?>
 </html>
