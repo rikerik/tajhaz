@@ -4,6 +4,7 @@
 
 <body>
         <div class="csoport">
+                <h3>A csapat</h3>
                 <img src="info/csoport2.jpg" alt="">
         </div>
         <div class="infoSzoveg">

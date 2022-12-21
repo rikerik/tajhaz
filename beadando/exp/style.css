@@ -24,7 +24,6 @@ body {
     flex-wrap: wrap;
 }
 
-
 @-webkit-keyframes Animation {
     0% {
         background-position: 10% 0%
@@ -78,7 +77,6 @@ header h1 {
     font-size: 3rem;
     text-align: center;
     opacity: 0.9;
-
 }
 
 /*NAVBAR*/
@@ -98,7 +96,6 @@ header h1 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-
 }
 
 .topnav a:hover {
@@ -125,20 +122,37 @@ iframe {
     margin-left: 15%;
     margin-right: 15%;
     color: rgb(3, 3, 3);
-    text-align: left;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .csoport {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden
+    overflow: hidden;
+    height: 70vh;
+    width: auto;
+    margin: 5%;
+    border-radius: 5%;
+
+
 }
 
 .csoport img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.csoport img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s;
+
+
 }
 
 /*GALÉRIA*/
@@ -157,8 +171,6 @@ ul.gallery li {
     margin-right: 1%;
     margin-bottom: 25px;
     float: left;
-
-
 }
 
 ul.gallery li a {
@@ -169,18 +181,11 @@ ul.gallery li a {
     border: 1px solid #f2f0ef;
     transition: opacity 0.3s, border 0.3s;
     overflow: hidden;
-
-
-
-
 }
 
 ul.gallery li a:hover {
     border: 1px solid #ffffff;
     opacity: 1;
-
-
-
 }
 
 ul.gallery li a img {
@@ -199,25 +204,24 @@ ul.gallery li a img:hover {
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 3%;
-
+    text-align: justify;
+    font-family: Helvetica, sans-serif
 }
 
 .galleryText h1 {
-    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
     border-bottom: 1px solid black;
     padding-bottom: 5px;
     padding-right: 12%;
-
 }
 
 /*FOOTER*/
 footer {
-    text-align: center;
     padding: 3px;
     background-color: #333;
     color: white;
     margin-top: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .wrapper {
@@ -229,8 +233,9 @@ footer {
 
 .first {
     flex: 0;
-    width: 500px;
+    max-width: 300px;
     margin: auto;
+    font-family: Helvetica, sans-serif;
     margin-top: 5px;
     padding-left: 15px;
     border-bottom: 1px solid green;
@@ -243,10 +248,10 @@ footer {
     max-width: 300px;
     margin: auto;
     margin-top: 5px;
+    font-family: Helvetica, sans-serif;
     padding-left: 15px;
     border-bottom: 1px solid green;
     border-top: 1px solid green;
-
 }
 
 .cimer img {
@@ -272,31 +277,44 @@ footer {
     margin-right: 60px;
     line-height: 1.2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
 }
-
 
 .container img {
     width: auto;
     height: 400px;
     align-self: flex-end;
     border-radius: 5%;
-
 }
-
-
 
 .content1,
 .content2,
 .content3 {
-    border: 5px solid rgb(34, 187, 174);
+
     padding: 10px;
     width: auto;
     display: inline-flex;
-    margin-right: 40px;
-    margin-top: 40px;
-    margin-bottom: 50px;
-
+    margin: auto;
+    margin-bottom: 30px;
+    border: solid 10px rgb(115, 153, 110);
+    clip-path: polygon(calc(0% + 5px) calc(0% + 5px),
+            /* top left */
+            calc(100% - 5px) calc(0% + 5px),
+            /* top right */
+            calc(100% - 5px) calc(100% - 5px),
+            /* bottom right */
+            calc(0% + 5px) calc(100% - 5px)
+            /* bottom left */
+        );
+    transition: clip-path 0.3s linear;
 }
+
+.content2:hover,
+.content3:hover,
+.content1:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
 
 .reveal {
     position: relative;
@@ -314,4 +332,6 @@ footer {
 .mainText {
     margin-left: 15%;
     margin-right: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
 }
