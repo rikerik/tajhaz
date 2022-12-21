@@ -5,13 +5,14 @@ body {
     flex-direction: column;
 }
 
+/*BANNER*/
 .banner {
     background-image:
         linear-gradient(to top right, rgba(228, 221, 221, 0.50) 10%, rgba(0, 0, 0, 0.80) 60%),
         url('banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -19,8 +20,8 @@ body {
     -webkit-animation: Animation 3s ease;
     -moz-animation: Animation 3s ease;
     animation: Animation 3s ease;
-
-
+    background-size:cover;
+    flex-wrap:wrap;
 }
 
 
@@ -54,18 +55,19 @@ body {
 
 @keyframes Animation {
     0% {
-        background-position: 10% 0%
+        background-position: 0% 0%
     }
 
     50% {
-        background-position: 91% 100%
+        background-position: 100% 100%
     }
 
     100% {
-        background-position: 10% 0%
+        background-position: 0% 0%
     }
 }
 
+/*BANNER SZÖVEG*/
 header h1 {
     width: 700px;
     border: 5px solid cadetblue;
@@ -75,11 +77,11 @@ header h1 {
     color: whitesmoke;
     font-size: 3rem;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
 
 }
 
-
+/*NAVBAR*/
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -109,7 +111,7 @@ header h1 {
     color: white;
 }
 
-
+/*INFORMÁCIÓ*/
 iframe {
     width: 700px;
     height: 500px;
@@ -119,10 +121,28 @@ iframe {
     border-style: none
 }
 
+.infoSzoveg{
+    margin-left: 15%;
+    margin-right: 15%;
+    color:rgb(3, 3, 3);
+    text-align: left;
+}
+.csoport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.csoport img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
 
+/*GALÉRIA*/
 ul.gallery {
-    margin: 0;
-    padding: 0;
+    margin-left: 11%;
+    margin-right: 10%;
     list-style: none;
     margin-bottom: 30px;
 
@@ -174,8 +194,8 @@ ul.gallery li a img:hover {
 }
 
 .galleryText {
-    margin-left: 5%;
-    margin-right: 14%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 3%;
 
 }
@@ -188,6 +208,7 @@ ul.gallery li a img:hover {
 
 }
 
+/*FOOTER*/
 footer {
     text-align: center;
     padding: 3px;
@@ -199,6 +220,7 @@ footer {
 
 .wrapper {
     display: flex;
+    margin-top: 15px;
     margin-bottom: 15px;
     align-items: center;
 }
@@ -235,48 +257,80 @@ footer {
     height: 200px;
 }
 
+/*KAPCSOLAT*/
 .container {
-    margin-left: 30px;
-
+    margin-left: 15%;
+    margin-right: 15%;
     align-items: left;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .container p {
-    margin-right: 40px;
-    font-size: larger;
+    margin-right: 60px;
     line-height: 1.2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container img {
 
+.container img {
     width: auto;
-    height: 600px;
+    height: 400px;
     align-self: flex-end;
     border-radius: 5%;
 
 }
 
-.content1 {
-    border: 1px solid green;
+
+
+.content1,
+.content2,
+.content3 {
+    border: 5px solid rgb(34, 187, 174);
     padding: 10px;
     width: auto;
     display: inline-flex;
     margin-right: 40px;
     margin-top: 40px;
     margin-bottom: 50px;
+    animation-name: visible;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.content1 {
+    animation-delay: 0s;
 
 }
 
 .content2 {
-    width: auto;
-    border: 1px solid green;
-    padding: 10px;
-    display: inline-flex;
-    margin-right: 40px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    animation-delay: 0.5s;
+}
+
+.content3 {
+    animation-delay: 1s;
+}
+
+@keyframes visible {
+    from {
+
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
+
+
+
+
+/*INDEX*/
+.mainText {
+    margin-left: 15%;
+    margin-right: 15%;
 }
