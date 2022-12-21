@@ -4,7 +4,7 @@
 
 <body>
     <div class="container">
-        <div class="content1">
+        <div class="content1 reveal">
             <div>
                 <h1>Elnök: Bakó Zoltán</h1>
                 <p style="text-decoration: underline black;">Telefonszám: 06 70 123/45-67</p>
@@ -14,7 +14,7 @@
             <img src="tagok/Zoli.jpg" alt="Zoli">
         </div>
 
-        <div class="content2">
+        <div class="content2 reveal">
             <div>
                 <h1>Alelnök: Rácz Mihály</h1>
                 <p style="text-decoration: underline black;">Telefonszám: 06 70 321/54-76</p>
@@ -24,7 +24,7 @@
             <img src="tagok/Misi.jpg" alt="Misi">
         </div>
 
-        <div class="content3">
+        <div class="content3 reveal">
             <div>
                 <h1>Alelnök: Rácz Mihály</h1>
                 <p style="text-decoration: underline black;">Telefonszám: 06 70 321/54-76</p>

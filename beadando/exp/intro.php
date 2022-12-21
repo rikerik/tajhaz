@@ -7,6 +7,8 @@ echo '
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="exp/style.css">
 
+    <script type="text/javascript" src="exp/script.js"></script>
+
     <title>Eperfa tájház</title>
 </head>
 
@@ -45,4 +47,4 @@ echo '
                         } ?> <?php echo ' "a href="informaciok.php">Információk</a>
     </div>
 </body>'
-                                                                                                                ?>
+                                ?>

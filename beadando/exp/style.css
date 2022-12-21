@@ -20,8 +20,8 @@ body {
     -webkit-animation: Animation 3s ease;
     -moz-animation: Animation 3s ease;
     animation: Animation 3s ease;
-    background-size:cover;
-    flex-wrap:wrap;
+    background-size: cover;
+    flex-wrap: wrap;
 }
 
 
@@ -121,18 +121,20 @@ iframe {
     border-style: none
 }
 
-.infoSzoveg{
+.infoSzoveg {
     margin-left: 15%;
     margin-right: 15%;
-    color:rgb(3, 3, 3);
+    color: rgb(3, 3, 3);
     text-align: left;
 }
+
 .csoport {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden
 }
+
 .csoport img {
     flex-shrink: 0;
     min-width: 100%;
@@ -293,41 +295,20 @@ footer {
     margin-right: 40px;
     margin-top: 40px;
     margin-bottom: 50px;
-    animation-name: visible;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
     opacity: 0;
+    transition: 1s all ease;
 }
 
-.content1 {
-    animation-delay: 0s;
-
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
 }
-
-.content2 {
-    animation-delay: 0.5s;
-}
-
-.content3 {
-    animation-delay: 1s;
-}
-
-@keyframes visible {
-    from {
-
-        visibility: hidden;
-    }
-
-    to {
-        opacity: 1;
-        visibility: visible;
-    }
-
-}
-
-
-
-
 
 /*INDEX*/
 .mainText {
