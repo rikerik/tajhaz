@@ -4,7 +4,7 @@
 
 <body>
         <div class="csoport">
-                <img src="info/csoport1.jpg" alt="">
+                <img src="info/csoport2.jpg" alt="">
         </div>
         <div class="infoSzoveg">
                 <h3>A tagokról:</h3>
