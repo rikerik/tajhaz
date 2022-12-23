@@ -109,13 +109,13 @@ header h1 {
 }
 
 /*INFORMÁCIÓ*/
-iframe {
+.terkep {
+    align-items: center;
     width: 700px;
     height: 500px;
-    padding: 25px;
     margin: 25px auto;
-    display: block;
-    border-style: none
+
+    border: rgb(176, 228, 176) 15px inset;
 }
 
 .infoSzoveg {
@@ -125,6 +125,28 @@ iframe {
     text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+
+.infoSzoveg h3 {
+    text-decoration: underline 3px rgb(182, 50, 50);
+    text-underline-offset: 6px;
+    font-weight: bolder;
+}
+
+.infoSzoveg p {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: justify;
+    font-size: 16px;
+    margin: 6px 4px;
+    transition: 0.3s;
+}
+
+.infoSzoveg p:hover {
+    background-color: #3e8e41;
+    color: white;
 }
 
 .csoport {
@@ -217,7 +239,7 @@ ul.gallery li a img:hover {
 
 /*FOOTER*/
 footer {
-    padding: 3px;
+    padding: 5px;
     background-color: #333;
     color: white;
     margin-top: auto;
@@ -229,6 +251,7 @@ footer {
     margin-top: 15px;
     margin-bottom: 15px;
     align-items: center;
+    margin-left: 90px;
 }
 
 .first {
@@ -334,4 +357,19 @@ footer {
     margin-right: 15%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
+}
+
+.videocontainer, .videocontainer iframe {
+    width: 800px;
+    height: 500px;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    
+
+}
+
+.videocontainer iframe {
+    display: block;
+    border: rgb(176, 228, 176) 15px inset;
 }
