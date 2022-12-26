@@ -3,7 +3,11 @@ body {
     background-color: bisque;
     display: flex;
     flex-direction: column;
+    line-height: 1.2;
 }
+
+
+
 
 /*BANNER*/
 .banner {
@@ -119,8 +123,8 @@ header h1 {
 }
 
 .infoSzoveg {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     color: rgb(3, 3, 3);
     text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -223,8 +227,8 @@ ul.gallery li a img:hover {
 }
 
 .galleryText {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 3%;
     text-align: justify;
     font-family: Helvetica, sans-serif
@@ -232,7 +236,7 @@ ul.gallery li a img:hover {
 
 .galleryText h1 {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-    border-bottom: 1px solid black;
+    border-bottom: 5px groove rgb(34, 32, 32);
     padding-bottom: 5px;
     padding-right: 12%;
 }
@@ -298,7 +302,7 @@ footer {
 
 .container p {
     margin-right: 60px;
-    line-height: 1.2;
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
 }
@@ -353,19 +357,21 @@ footer {
 
 /*INDEX*/
 .mainText {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
 }
 
-.videocontainer, .videocontainer iframe {
+.videocontainer,
+.videocontainer iframe {
     width: 800px;
     height: 500px;
     padding: auto;
     margin: auto;
-    margin-bottom: 50px;
-    
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 
 }
 

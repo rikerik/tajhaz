@@ -4,7 +4,7 @@
 <body>
     
     <div class="galleryText">
-        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, minima.</h1>
+        <h1 >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, minima.</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quia, velit odit aliquid veniam architecto, dolore quibusdam accusantium soluta asperiores beatae? Deleniti assumenda magnam debitis!</p>
     </div>
 
