@@ -1,6 +1,7 @@
 <footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Ugrás az oldal tetejére</button>
   <div class="wrapper">
-    <div class = "first">
+    <div class="first">
       <h1>Elérhetőség</h1>
       <p>+36 70/123-456</p>
       <p>pelda.email@gmail.com</p>
@@ -9,11 +10,11 @@
     <div class="cimer">
       <img src="exp/cimer.jpg">
     </div>
-    <div class = "second">
+    <div class="second">
       <h1>Még több szöveg</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aperiam fuga, mollitia dicta labore minima aut tenetur necessitatibus repudiandae maxime?</p>
       <p>Lorem ipsum dolor sit amet.</p>
-      
+
     </div>
   </div>
 
