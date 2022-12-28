@@ -15,6 +15,7 @@ echo '
 </head>
 
 <body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Ugrás az oldal tetejére</button>
     <header class="banner">
         <h1>Üdvözöllek az Eperfa tájház kapujában!</h1>
     </header>
@@ -50,5 +51,7 @@ echo '
                             echo "noactive";
                         } ?> <?php echo ' "a href="informaciok.php">Információk</a>
     </div>
+    
 </body>'
+
                                 ?>

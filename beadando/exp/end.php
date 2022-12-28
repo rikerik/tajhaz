@@ -1,5 +1,6 @@
 <footer>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Ugrás az oldal tetejére</button>
+
+  
   <div class="wrapper">
     <div class="first">
       <h1>Elérhetőség</h1>
@@ -17,5 +18,4 @@
 
     </div>
   </div>
-
-</footer>
+</footer>'
