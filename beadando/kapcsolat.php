@@ -38,11 +38,11 @@
 
         <div class="content3 reveal">
             <div>
-                <h1>Alelnök: Rácz Mihály</h1>
+                <h1>Helyettes: Lázár Tibor</h1>
                 <p style="text-decoration: underline black;">Telefonszám: 06 70 321/54-76</p>
                 <?php
 
-                $fh = fopen('exp/Valaki.txt', 'r');
+                $fh = fopen('exp/Tibi.txt', 'r');
                 while ($line = fgets($fh)) {
                     echo $line;
                 }
@@ -50,7 +50,7 @@
                 ?>
 
             </div>
-            <img src="tagok/Misi.jpg" alt="Misi">
+            <img src="tagok/Tibi.jpg" alt="Misi">
         </div>
 
     </div>
