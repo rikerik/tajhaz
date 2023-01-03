@@ -112,7 +112,7 @@ header h1 {
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: cadetblue;
     color: white;
 }
 
@@ -367,11 +367,13 @@ footer {
 .container img {
     width: auto;
     height: 500px;
-    align-self:center;
+    align-self: center;
     border-radius: 5%;
 }
+
 .container h1 {
     text-align: left;
+
 }
 
 .content1,
@@ -426,37 +428,28 @@ footer {
     line-height: 24px;
 }
 
-.maintext h1 {
-    font-family: 'Fira Code', monospace;
-
-    display: block;
+#title {
     width: 100%;
+    margin-top: 5%;
     text-align: center;
-    padding-top: 3%;
-    text-transform: uppercase;
-    background-image: linear-gradient(-225deg,
-            #c51c1c 0%,
-            #d8e617 29%,
-            #d448a6 67%,
-            #2ea12e 100%);
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 6s linear infinite;
-    display: inline-block;
-    font-size: 50px;
-    padding-bottom: 3%;
 }
 
-@keyframes textclip {
-    to {
-        background-position: 200% center;
-    }
+#title h1 {
+    display: inline-block;
+    width: fit-content;
+    margin: 1% auto;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 1em;
+    background: bisque;
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+#one {
+    border: solid 5px rgba(238, 111, 87, 0.5);
 }
 
 

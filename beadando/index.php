@@ -1,13 +1,13 @@
 <?php include "exp/intro.php"; ?>
 
 <body>
+
     <div class="mainText">
 
-
-        <span>
-            <h1>Lorem ipsum dolor sit amet.</h1>
-        </span>
-
+        <div id="title">
+            <h1 id='one'>
+                Eperfa Tájház - Szaporca </h1>
+        </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi enim unde a inventore, tempore culpa nemo iste et commodi tenetur fugit laborum. Eaque, minus!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, sint?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque illum quos, error beatae repellat eos sit quibusdam? Obcaecati quae, nobis dolore in modi iure non cumque suscipit quas provident illo corporis temporibus, nihil quis eum pariatur saepe ipsam, molestiae animi labore? Aliquid, at nesciunt dicta laudantium incidunt cum reiciendis ipsa blanditiis autem illum voluptas vero molestiae sapiente suscipit repudiandae iure temporibus id numquam nam odio. Ex deserunt sit odio ipsum nostrum possimus quo! Aliquam sunt voluptas esse et vel voluptatum rerum ad, quisquam nam voluptates quos corporis, totam dolores ullam modi porro facere nesciunt quod. Culpa, fuga nihil! Explicabo quod dolore veniam accusamus dolorum dignissimos facere earum voluptatem enim! Reiciendis architecto earum dolore rerum. Sequi modi recusandae laboriosam iure. Est voluptatem ut impedit temporibus quos odio eligendi repellendus, tempora quasi ex quod quam exercitationem, aliquid cupiditate. Iste mollitia necessitatibus adipisci architecto atque veritatis neque suscipit cum repudiandae fugiat facere veniam, pariatur numquam animi distinctio similique, ipsa dolores beatae rem. Dolore saepe laboriosam odio voluptatem maxime voluptates reprehenderit deserunt aperiam! Nesciunt recusandae harum mollitia saepe earum voluptatum veniam distinctio voluptas! Accusamus nihil, repellat commodi laudantium, aliquam sit voluptates odit labore id eligendi itaque? Sequi ullam, at quam maiores rerum temporibus laudantium?</p>

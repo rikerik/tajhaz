@@ -17,7 +17,7 @@ echo '
 <body>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Ugrás az oldal tetejére</button>
     <header class="banner">
-        <h1>Üdvözöllek az Eperfa tájház kapujában!</h1>
+        <h1>Üdvözöllek az Eperfa Tájház kapujában!</h1>
     </header>
     ' ?>
 
