@@ -50,8 +50,13 @@ echo '
                         } else {
                             echo "noactive";
                         } ?> <?php echo ' "a href="informaciok.php">Információk</a>
+        <a class="' ?> <?php if ($currentPage == "velemenyek.php") {
+                            echo "active";
+                        } else {
+                            echo "noactive";
+                        } ?> <?php echo ' "a href="velemenyek.php">Vélemények</a>
     </div>
     
 </body>'
 
-                                ?>
+                                                ?>

@@ -478,3 +478,57 @@ footer {
     height: 30%;
     height: auto;
 }
+
+.center {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    border-radius: 20px;
+
+}
+
+.inputbox button {
+    margin-top: 20px;
+}
+
+.center .inputbox {
+    position: relative;
+    width: 300px;
+    height: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+
+#inputName {
+    text-align: center;
+}
+
+.vendeg {
+    padding: 0;
+    list-style: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+}
+
+.vendeg .vendegLista {
+    background-color: gainsboro;
+
+    border: 1px solid #dad8d4;
+    margin-bottom: 15px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.vendeg .vendegLista p span {
+    font-style: italic;
+    float: right;
+    font-size: 13px;
+}
