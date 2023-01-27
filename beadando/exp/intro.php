@@ -12,6 +12,10 @@ echo '
     <script type="text/javascript" src="exp/script.js"></script>
 
     <title>Eperfa tájház</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+
+
 </head>
 
 <body>
